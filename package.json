@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "migration": "ENV_SILENT=true node ace migration:run",
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
     "start": "node server.js",
-    "migration": "ENV_SILENT=true node ace migration:run",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
   },
