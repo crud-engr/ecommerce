@@ -56,6 +56,8 @@ Route.group(() => {
 
 }).prefix('api/v1');
 
+Route.get('/', 'HomeController.index');
+
 // fallback handler for non existing url
 Route.get('*', ({ request, response }) => {
   return response.status(404).json(
