@@ -6,7 +6,7 @@
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
     "start": "node server.js",
-    "migration:run": "ENV_SILENT=true node ace migration:run --force",
+    "migration:run": "ENV_SILENT=true node ace migration:run",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
   },
