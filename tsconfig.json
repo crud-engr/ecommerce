@@ -3,6 +3,9 @@
   "include": [
     "**/*"
   ],
+  "eslint.workingDirectories": [
+    { "directory": "build", "changeProcessCWD": true }
+  ],
   "exclude": [
     "node_modules",
     "build"
